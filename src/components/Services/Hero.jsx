@@ -1,6 +1,17 @@
 import React from 'react'
 
 const Hero = () => {
+
+    const data=[
+        {
+            head:"Lorem Ipsum Has Been ",
+            desc:"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+        },
+        {
+            head:"Lorem Ipsum Has Been ",
+            desc:"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+        }
+    ]
   return (
     <div>
       
@@ -17,7 +28,7 @@ const Hero = () => {
         </div>
 
         {/* down part-2 card */}
-        <div className='grid ml-25 mr-25 sm:ml-5 sm:mr-5 sm:grid-cols-2 gap-6 m-8 md:m-10 md:ml-15 md:mr-15'>
+        {/* <div className='grid ml-10 mr-10 sm:ml-5 sm:mr-5 sm:grid-cols-2 gap-6 m-8 md:m-10 md:ml-15 md:mr-15'>
 
             <div className='flex flex-col p-10 pt-20 pb-20 md:pt-37 md:pb-37 gap-3 bg-linear-to-b from-gray-300 via-gray-600 to-gray-900 '>
                 <div>
@@ -39,6 +50,17 @@ const Hero = () => {
 
             </div>
 
+        </div> */}
+
+        <div className='grid md:grid-cols-2 gap-10 m-10'>
+            {
+                data.map(elem=>(
+                    <div className='flex flex-col gap-3 bg-linear-to-b from-gray-300 via-gray-600 to-gray-900 p-10 pt-20 pb-20 md:pt-37 md:pb-37'>
+                        <h1 className='text-white text-3xl md:text-4xl font-bold'>{elem.head}</h1>
+                        <p className='text-white text-sm md:text-lg'>{elem.desc}</p>
+                    </div>
+                ))
+            }
         </div>
 
       </div>

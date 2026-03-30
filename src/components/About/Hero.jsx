@@ -3,8 +3,8 @@ import React from 'react'
 const Hero = () => {
   return (
     <div>
-        <div className='flex bg-[#111827] p-13  '>
-            <div className='w-[50%] flex flex-col gap-5 justify-center md:pl-30 pr-5 '>
+        <div className='flex flex-col sm:flex-row bg-[#111827] p-13  '>
+            <div className='sm:w-[50%] flex flex-col gap-5 justify-center md:pl-30 pr-5 text-center sm:text-left '>
                 
                 <div>
                     <p className='text-[#98DAD9] text-xs md:text-sm'>Hello, Welcome</p>
@@ -24,7 +24,7 @@ const Hero = () => {
 
             </div>
 
-            <div className='w-[50%] flex justify-center p-8 md:p-4'>
+            <div className='sm:w-[50%] flex justify-center p-8 md:p-4'>
                 <img className='scale-x-[-1] rounded-2xl ' src="./images/section5-dr.png" alt="" />
 
             </div>

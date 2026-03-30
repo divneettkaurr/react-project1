@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { ThemeContext } from '../../ContextAPI/ThemeContext'
 
 const Section2 = () => {
+    // const {theme, toggleTheme}=useContext(ThemeContext)
+
   return (
     <div>
-    <div className='gap-7 pl-20 pr-20 sm:pl-4 sm:pr-4 grid sm:grid-cols-3 md:gap-18 md:pl-40 md:pr-40 mt-20 '>
+    
+    <div className='gap-7 pl-20 pr-20 sm:pl-4 sm:pr-4 grid sm:grid-cols-3 md:gap-18 md:pl-40 md:pr-40 mt-20'>
+    {/* <div className={`gap-7 pl-20 pr-20 sm:pl-4 sm:pr-4 grid sm:grid-cols-3 md:gap-18 md:pl-40 md:pr-40 mt-20 ${theme==="dark"?"bg-black":""} `}> */}
 
         {/* 1st card */}
         <div className='gap-4 flex flex-col p-6 md:gap-10 bg-[#364F59] text-white border text-sm md:text-md border-white shadow-xl/40 hover:shadow-xl/60'>

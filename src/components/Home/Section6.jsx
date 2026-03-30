@@ -4,7 +4,7 @@ import { FaArrowRightLong } from 'react-icons/fa6'
 const Section6 = () => {
   return (
     <div>
-        <div className='gap-10 pt-20 pb-20 pl-10 pr-10 justify-between flex md:justify-around bg-[#D9D9D9] items-center md:p-30 md:pl-0 md:pr-0 mt-30'>
+        <div className='text-center sm:text-left gap-10 pt-20 pb-20 pl-10 pr-10 justify-between flex-col flex sm:flex-row md:justify-around bg-[#D9D9D9] items-center md:p-30 md:pl-0 md:pr-0 mt-30'>
             <div>
                 <p className='text-[#5B8291] text-md sm:text-xl'>In case of EMERGENCY, call +91 9701757017</p>
             </div>

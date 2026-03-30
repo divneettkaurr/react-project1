@@ -5,6 +5,7 @@ import Home from './app/Home/Home'
 import { FcAbout } from 'react-icons/fc'
 import About from './app/About/About'
 import Services from './app/Services/Services'
+import Contact from './app/Contact/Contact'
 
 const App = () => {
   
@@ -24,6 +25,10 @@ const App = () => {
        {
         path:"/services",
         element:<Services/>
+      },
+       {
+        path:"/contact",
+        element:<Contact/>
       }
     ]
 

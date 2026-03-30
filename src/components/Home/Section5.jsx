@@ -3,7 +3,7 @@ import React from 'react'
 const Section5 = () => {
   return (
     <div>
-      <div className='gap-10 sm:gap-15 flex md:gap-25 pl-7 pr-5 sm:pl-10 sm:pr-10 md:pl-40 md:pr-45 mt-30'>
+      <div className='gap-10 sm:gap-15 flex-col  flex sm:flex-row md:gap-25 pl-10 pr-10 sm:pl-10 sm:pr-10 md:pl-40 md:pr-45 mt-30'>
         
           <div>
                 <img className='h-75 md:h-100 w-300' src="./images/section5-dr.png" alt="" />

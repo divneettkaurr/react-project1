@@ -3,8 +3,8 @@ import React from 'react'
 const Section7 = () => {
   return (
     <div>
-        <div className='text-[#5B8291] flex flex-col items-center p-20 pl-15 pr-15 md:p-30 gap-15 md:pl-40 md:pr-40'>
-            <div>
+        <div className='text-[#5B8291] flex flex-col items-center p-20 pl-12 pr-12 sm:pl-15 sm:pr-15 md:p-30 gap-15 md:pl-40 md:pr-40'>
+            <div className='text-center'>
                 <p className='text-3xl font-medium'>Why Choose Dr. Gaurav Jadon</p>
             </div>
             <div className='text-lg md:text-xl text-center flex flex-col gap-5'>
